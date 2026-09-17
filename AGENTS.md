@@ -1,4 +1,4 @@
-﻿# Signal Store — Financial Exchange Architecture & Engineering Standards
+# Signal Store — Financial Exchange Architecture & Engineering Standards
 
 Добро пожаловать в репозиторий торговой платформы / биржи **Signal Store**.
 Проект построен на базе **Nx Monorepo**, **Angular (версия 22+)** и строгого реактивного подхода на **Angular Signals**.
@@ -52,5 +52,5 @@
 ## 🧹 4. Линтинг, Форматирование и Чистота Кода
 
 - **Prettier**: Настроен `prettier-plugin-organize-imports` для автоматического удаления неиспользуемых импортов и их упорядочивания при сохранении/форматировании (`npm run format`).
-- **ESLint**: Настроены `@angular-eslint` и `eslint-plugin-unused-imports`.
-- **Скилл `cc`**: Перед коммитом или сдачей задачи всегда используйте скилл `cc` для контроля качества, проверки чистоты кода и формирования коммита по Conventional Commits.
+- **Скилл `clean-code`**: Перед коммитом или сдачей задачи используйте скилл `clean-code` для контроля качества, проверки чистоты кода и формирования коммита по Conventional Commits.
+- **Скилл `cc`**: Режим консультанта (Consultant Mode) — запрещает агенту изменять файлы и код проекта, ограничивая роль исключительно консультированием, архитектурным ревью и рекомендациями.

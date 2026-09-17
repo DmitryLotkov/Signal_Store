@@ -1,0 +1,13 @@
+<div
+  class="ws-status-badge"
+  role="status"
+  [attr.aria-label]="label() + ' status: ' + status()"
+  [class]="statusColor()"
+>
+  <span class="indicator-dot" aria-hidden="true"></span>
+  <span class="label">{{ label() }}:</span>
+  <span class="status-text">{{ status() }}</span>
+  @if (error()) {
+  <span class="error-msg" [title]="error()">({{ error() }})</span>
+  }
+</div>

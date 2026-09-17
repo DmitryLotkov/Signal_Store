@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "strict": false,
-    "paths": {}
+    "paths": {
+      "@signal-store/feature-websocket": ["./libs/shared/feature-websocket/src/index.ts"],
+      "@signal-store/shared/feature-websocket": ["./libs/shared/feature-websocket/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
